@@ -4,7 +4,7 @@ apply plugin: 'io.objectbox'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "plan9.hamza.instailorapplication"
+        applicationId "plan9.usama.instailorapplication"
         minSdkVersion 20
         targetSdkVersion 28
         versionCode 1

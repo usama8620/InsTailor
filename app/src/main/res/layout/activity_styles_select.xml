@@ -31,7 +31,7 @@
             android:textSize="20dp" />
     </android.support.v7.widget.Toolbar>
 
-    <plan9.hamza.instailorapplication.CustomViewPager
+    <plan9.usama.instailorapplication.CustomViewPager
         android:id="@+id/viewpager"
         android:layout_below="@id/toolbar"
         android:layout_width="match_parent"

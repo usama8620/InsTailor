@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="plan9.hamza.instailorapplication">
+    package="plan9.usama.instailorapplication">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".MyApp"
+        android:name="plan9.usama.instailorapplication.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,11 +17,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Activities.MainActivity"
+            android:name="plan9.usama.instailorapplication.Activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activities.SplashScreenActivity"
+            android:name="plan9.usama.instailorapplication.Activities.SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,11 +29,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.LoginRegistrationActivity" />
-        <activity android:name=".Activities.ContactUsActivity" />
-        <activity android:name=".Activities.ShoppingActivity" />
-        <activity android:name=".Activities.CategoriesActivity" />
-        <activity android:name=".Activities.StylesSelectActivity" />
+        <activity android:name="plan9.usama.instailorapplication.Activities.LoginRegistrationActivity" />
+        <activity android:name="plan9.usama.instailorapplication.Activities.ContactUsActivity" />
+        <activity android:name="plan9.usama.instailorapplication.Activities.ShoppingActivity" />
+        <activity android:name="plan9.usama.instailorapplication.Activities.CategoriesActivity" />
+        <activity android:name="plan9.usama.instailorapplication.Activities.StylesSelectActivity" />
     </application>
 
 </manifest>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="50dp">
+
+
+        <EditText
+            android:id="@+id/login_fragment_email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/textinputborder"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/login_fragment_password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/login_fragment_email"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textinputborder"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_forget_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_fragment_password"
+            android:layout_marginTop="15dp"
+            android:text="Forget Password?"
+            android:textColor="#878181" />
+
+        <TextView
+            android:id="@+id/login_fragment_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_fragment_password"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/tv_forget_pass"
+            android:layout_toRightOf="@+id/tv_forget_pass"
+            android:text="click here"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/login_fragment_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_fragment_forget_password"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_button"
+            android:text="Log In"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/login_fragment_registraton_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button"
+        android:text="Registration"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:background="@mipmap/app_login_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/login_registration_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="INSTAILOR"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/login_registration_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/transparent"
+        app:layout_collapseMode="parallax"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/red_A700"
+        app:tabIndicatorHeight="2dp"
+        app:tabSelectedTextColor="@color/red_A700"
+        app:tabTextColor="@color/red_A700" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/login_registration_view_pager"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
